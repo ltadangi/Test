@@ -1,0 +1,8 @@
+From httpd:2.4
+MAINTAINER leelavathi.t@gmail.com
+
+#copy files
+COPY ./second.html /usr/local/apache2/htdocs/
+
+#ExposePorts
+EXPOSE80
